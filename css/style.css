@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+}
+.home{
+    height: 100vh;
+    background-image: url(imgs/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.overlay{
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.title{
+    font-size: 70px;
+   font-family: 'Inter', sans-serif;
+   color: #ffff;
+}
+.card1{
+    border: none;
+    border-radius:0% ;
+}
+.second-section .card-title1{
+    color: #1E1E1E;
+    font-size: 17px;
+}
+.second-section .card-text1{
+    color: #4E4E4E;
+    line-height:24px;
+    font-size: 16px;
+}
+.line1{
+    background-color: #0078ff;
+    height: 3px;
+    width: 20%;
+    margin-bottom: 50px;
+}
+.container3 h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+ .line{
+    background-color: #0078ff;
+    height: 4px;
+    width: 4%;
+    margin: auto;
+}
+.formline{
+    background-color: #0078ff;
+    height: 4px;
+    width: 25%;
+}
+.container3 .icon{
+    border: solid 10px #0078ff;
+    width: 40%;
+    margin: auto;
+    border-radius: 50%;
+    padding: 30px 23px;
+    text-align: center;
+    transition: all;
+    transition-duration: 0.4s;
+  
+}
+.container3 .icon h5{
+      font-size: 35px;
+}
+.container3 .icon:hover{
+    background-color: #0078ff;
+    border: solid 10px #CDE1F8;
+}
+.third-section .card-text{
+    color: #4E4E4E;
+    font-size: 16px;
+    line-height: 24px;
+}
+.fourth-section{
+    background-image: url(imgs/post-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-bottom: 60px;
+}
+.fourth-container{
+    background-color: rgba(0, 120, 255,0.7);
+}
+.fourth-section .card-title{
+    font-size: 32px;
+    color: #ffff;
+    line-height: 48px;
+    font-weight: 400;
+}
+.fourth-section .card-text{
+    font-size: 16px;
+    color: #ffff;
+    line-height: 24px;
+}
+.fifth-title h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.fifth-section .card-caption p{
+ font-size: 12px;
+ color: #0078ff;
+}
+.fifth-section .card-caption p::after{
+    content: " / 18 Sep. 2018";
+    color: #4E4E4E;
+}
+.fifth-section .card:hover .image {
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+    z-index: 0;
+}
+.fifth-section .card:hover{
+    overflow: hidden;
+   transition: all;
+   cursor: pointer;
+
+}
+.fifth-section .card:hover .card-body{
+    z-index: 1;
+}
+.fifth-section .card-body{
+    background-color: #ffff;
+}
+.sixth-section{
+    background-image: url(imgs/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+#carouselExampleAutoplaying{
+    background-color: rgba(0, 120, 255,0.7);
+    position: relative;
+
+}
+.caro-caption img{
+ position: relative;
+ left: 550px;
+top: 160px;
+background-color: yellowgreen;
+
+}
+
+.carousel-inner{
+    height: 100vh;
+}
+.carousel-caption{
+   position: relative;
+   top: 310px;
+}
+.seventh-section .card-footer img{
+   width: 12%;
+   margin-right: 2px;
+}
+.seventh-section .card a{
+    color: #1E1E1E;
+    transition-property: all;
+}
+.seventh-section .card a:hover{
+    color: #0078ff;
+    transition-duration: 0.4s;
+}
+.final{
+    background-image: url(imgs/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow:1px 16px 32px -26px rgba(0,0,0,1); ;
+}
+.fcontainer{
+    background-color: #ffff;
+    border-radius: 5px;
+}
+.final .card{
+border: none;
+border-radius: 0%;
+
+}
+.layer{
+    background-color: rgba(0, 120, 255,0.7);
+    padding: 120px 70px ;
+}
+.footer-section{
+    background-color: #0062D3;
+    text-align: center;
+    height: 120px;
+}
+.footer-section .first{
+    font-weight: bold;
+    color: #ffff;
+    padding-top: 30px;
+}
+.footer-section .first::before{
+    content: "Copyright ";
+    color: #ffff;
+    font-weight: 400;
+}
+.footer-section .first::after{
+    content: " All Rights Reserved";
+    color: #ffff;
+    font-weight: 400;
+}
+.footer-section p{
+    color: #ffff;
+    font-weight: 400;
+}
+
